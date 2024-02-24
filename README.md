@@ -1,31 +1,32 @@
-**Havayolu Yolcu Talep Tahmini Projesi**
-Bu proje, havayolu yolcu talep tahminini regresyon modelleri ve yapay sinir ağı yöntemleri kullanarak gerçekleştiren bir Python uygulamasını içermektedir. Proje, veri analizi, model eğitimi ve performans değerlendirmesi adımlarını içermektedir.
+Airline Passenger Demand Forecasting Project
 
-**Kullanılan Teknolojiler ve Kütüphaneler**
-Python: Proje, Python programlama dilinde yazılmıştır.
-NumPy: Sayısal hesaplamalar ve veri manipülasyonu için kullanılmıştır.
-Pandas: Veri analizi ve işlemleri için kullanılmıştır.
-Matplotlib ve Seaborn: Veri görselleştirme işlemleri için kullanılmıştır.
-scikit-learn (sklearn): Makine öğrenimi algoritmaları ve araçları sağlayan bir kütüphane olarak kullanılmıştır.
-MLPRegressor (Yapay Sinir Ağı Regresyon Modeli): Yapay sinir ağı tabanlı regresyon modeli oluşturmak için kullanılmıştır.
-**Kullanım**
-Projenin ana bileşeni olan HavayoluYolcuTahmini.py dosyasını çalıştırarak proje başlatılabilir. Bu dosya, veri setini yükler, modeli eğitir, tahminlerde bulunur ve sonuçları değerlendirir.
+This project encompasses a Python application that predicts airline passenger demand using regression models and artificial neural network methods. The project includes steps for data analysis, model training, and performance evaluation.
 
-**Proje Aşamaları**
-Veri Setinin Yüklenmesi: HavayoluYolcu.csv dosyasından veri seti okunur.
-Veri Ön İşleme: Bağımlı değişken ve bağımsız değişkenler ayrılır. Veri seti eğitim ve test kümelerine bölünür. Veri normalizasyonu yapılır.
-Model Eğitimi: Farklı regresyon modelleri ve yapay sinir ağı modeli eğitilir.
-Performans Değerlendirmesi: Her bir modelin tahmin performansı değerlendirilir ve metrikler hesaplanır.
-Sonuçların Görselleştirilmesi: Tahminler ve gerçek değerler arasındaki ilişki grafiklerle gösterilir.
+Technologies and Libraries Used
+Python: The project is written in the Python programming language.
+NumPy: Utilized for numerical computations and data manipulation.
+Pandas: Employed for data analysis and processing.
+Matplotlib and Seaborn: Used for data visualization.
+scikit-learn (sklearn): Utilized as a library providing machine learning algorithms and tools.
+MLPRegressor (Artificial Neural Network Regression Model): Used to create artificial neural network-based regression models.
 
+Usage
+The project can be initiated by running the main component file, HavayoluYolcuTahmini.py. This file loads the dataset, trains the model, makes predictions, and evaluates the results.
 
-**Model Performansı**
-Modellerin performansı aşağıdaki metriklerle değerlendirilmiştir:
+Project Stages
+Data Loading: The dataset is read from the HavayoluYolcu.csv file.
+Data Preprocessing: Dependent and independent variables are separated. The dataset is split into training and testing sets. Data normalization is performed.
+Model Training: Various regression models and an artificial neural network model are trained.
+Performance Evaluation: The prediction performance of each model is evaluated, and metrics are calculated.
+Results Visualization: The relationship between predictions and actual values is visualized through graphs.
+
+Model Performance
+The performance of the models is evaluated using the following metrics:
 
 Mean Absolute Error (MAE)
 Mean Squared Error (MSE)
 Root Mean Squared Error (RMSE)
 R2 Score
 
-**Sonuçlar**
-Projede, yapılan tahminlerin gerçek verilere olan yakınlığı ve modellerin performansı değerlendirilmiştir. Ayrıca, regresyon modellerinin tahminlerini gösteren grafikler oluşturulmuştur.
+Results
+The project evaluates the proximity of predictions to actual data and the performance of the models. Additionally, graphs depicting the predictions of regression models are created.
